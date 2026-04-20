@@ -12,6 +12,10 @@ const swaggerOptions = {
     },
     servers: [
       {
+        url: 'https://graduation-backend-production-b53d.up.railway.app/api/v1',
+        description: 'Production Server',
+      },
+      {
         url: 'http://localhost:3000/api/v1',
         description: 'Development Server',
       },
