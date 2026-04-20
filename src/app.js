@@ -37,6 +37,7 @@ const allowedOrigins = [
   'http://localhost:5500',
   'http://127.0.0.1:5500',
   'http://localhost:3000',
+  'https://graduation-backend-production-b53d.up.railway.app', // Swagger UI and self-ref origin
   process.env.FRONTEND_URL, // Set this in production to your deployed frontend URL
 ].filter(Boolean);
 
