@@ -38,6 +38,8 @@ const allowedOrigins = [
   'http://127.0.0.1:5500',
   'http://localhost:3000',
   'https://graduation-backend-production-b53d.up.railway.app', // Swagger UI and self-ref origin
+  'https://abdo-ayman18.github.io', // Frontend GitHub Pages
+  'https://wathq-eng-abdo-ayman.vercel.app', // Frontend Vercel
   process.env.FRONTEND_URL, // Set this in production to your deployed frontend URL
 ].filter(Boolean);
 
